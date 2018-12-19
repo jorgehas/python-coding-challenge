@@ -26,15 +26,12 @@ def overlap(line1, line2):
 	d = line2[1]
 
 	result = [max(a,c), min(b,d)]
-
 	if result[0] > result [1]:
 		return "No : Not Overlapping "
 	else:
-
 		return "Yes:  Overlapping"
-
+		
 # Test
-
 if __name__ == '__main__':
 	print(overlap((1,5),(2,6)))
 	print(overlap((1,5),(6,8)))
