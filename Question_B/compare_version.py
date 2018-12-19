@@ -12,12 +12,9 @@ Example:
 
 Output:
 “1.2” is greater than “1.1”.
-
-
 '''
 
 def compareVersions(version1, version2):
-
 	'''
 	The function takes as two inputs version1 and version2
 	and return the version1 greater than version2 or
@@ -44,7 +41,7 @@ def compareVersions(version1, version2):
 			index +=1
 	
 	return "version 1 and version 2 are equal"
-	
+
 #Test
 if __name__ == '__main__':
 	print(compareVersions("7.3.2.1","7.2.8.1"))
