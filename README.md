@@ -19,7 +19,7 @@ python3 compare_version.py
 
 ```
 
-### 3- Question B
+### 3- Question C
  The script can be run as follows:
   
 
