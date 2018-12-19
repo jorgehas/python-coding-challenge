@@ -14,7 +14,6 @@ Description:
     5 - Locality of reference, data should almost always be available from the closest region
     6 - Flexible Schema
     7 - Cache can expire	
-Example: 
 '''
 import time
 
