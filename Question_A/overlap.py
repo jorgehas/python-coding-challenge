@@ -10,9 +10,6 @@ Description:
 Example: 
 As an example, (1,5) and (2,6) overlaps but not (1,5) and (6,8).
 
-
-
-
 '''
 
 def overlap(line1, line2):
@@ -36,14 +33,14 @@ def overlap(line1, line2):
 
 		return "Yes:  Overlapping"
 
+# Test
 
-
-print(overlap((1,5),(2,6)))
-print(overlap((1,5),(6,8)))
-print(overlap([6,8],[1,5]))
-
-print(overlap([1,11],[3,10]))
-print(overlap([1,8],[8,10]))
+if __name__ == '__main__':
+	print(overlap((1,5),(2,6)))
+	print(overlap((1,5),(6,8)))
+	print(overlap([6,8],[1,5]))
+	print(overlap([1,11],[3,10]))
+	print(overlap([1,8],[8,10]))
 
 
 
