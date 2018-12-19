@@ -32,18 +32,49 @@ class LinkedList(object):
 	def __init__(self):
 		self.head = None
 		self.tail = None
-	def __insert__(self,node):
+	def __insertitem__(self,node):
 		node.next = None 
+		node.previous = None
+		if self.head is None:
+			self.head = node
+		else:
+			self.tail,next = node
+			self.previous = self.tail
+		self.tail = node
+
+	def __removeitem__(self,node):
+		if node.previous:
+			node.previous.next = node.next
+		else:
+			self.head = node.next
+		if node.next:
+			node.next.previous = node.previous
+		else:
+			self.tail = node.previous
+		node.next = None
 		node.previous = None
 
 
 class LRUCache:
 	def __init__(self, size):
 		cur_time = time.time()
+		self.list = LinkedList()
 		self.size = size
-		 
+		self.dict = {}
 
+	def _add(self,key,value):
+		node = Node(key,value)
+		self.list.__insertitem__(node)
+		self.dict[key] = node
 
+	def put():
+		if key in self.dict:
+			self.list.__removeitem__(self.dict[key])
+
+		elif len(self.dict) == self.size:
+			
+
+	
 
 
 
