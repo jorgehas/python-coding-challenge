@@ -1,7 +1,7 @@
 # Ormuco_Test
 ### 1- Question A
  The script can be run as follows:
-  
+https://aws.amazon.com/blogs/big-data/govern-and-manage-permissions-of-amazon-quicksight-assets-with-the-new-centralized-asset-management-console  
 
  
 ```
