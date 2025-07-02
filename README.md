@@ -1,7 +1,6 @@
 # Ormuco_Test
 ### 1- Question A
  The script can be run as follows:
-https://noise.getoto.net/2021/09/30/use-amazon-athena-and-amazon-quicksight-in-a-cross-account-environment/
  
 ```
 python3 overlap.py
